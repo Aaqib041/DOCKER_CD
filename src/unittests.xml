@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0"><testcase classname="nose.failure.Failure" name="runTest" time="0.002"><error type="exceptions.IndentationError" message="expected an indented block (tests.py, line 15)"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "/root/docker_demo/todobackend/testenv/local/lib/python2.7/site-packages/nose/loader.py", line 418, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/root/docker_demo/todobackend/testenv/local/lib/python2.7/site-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/root/docker_demo/todobackend/testenv/local/lib/python2.7/site-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/root/docker_demo/todobackend/src/todo/tests.py", line 15
+    """
+Ensure we can create a new todo item
+"""
+       
+                                    
+  ^
+IndentationError: expected an indented block
+]]></error></testcase></testsuite>
